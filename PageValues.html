@@ -1,0 +1,20 @@
+<html>
+
+<head>
+   
+</head>
+
+<body>
+    <center>
+        <h1>Pagina que recebe os dados</h1>
+        <h2>Dado recebido:  <h2 id="value"></h2></h2>
+        <h2>Dado recebido do botao:  <h2 id="buttonvalue"></h2></h2>
+
+        <script>
+            document.getElementById("value").innerHTML=localStorage.getItem("txtvalue");
+            document.getElementById("buttonvalue").innerHTML=localStorage.getItem("btnvalue");
+         </script>
+    </center>
+</body>
+
+</html>
